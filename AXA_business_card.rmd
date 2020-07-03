@@ -1,8 +1,8 @@
 ---
 logo: "reuleaux_heptagon.svg"
 googlefonts: "Nunito"
-paperwidth: 5in
-paperheight: 4in
+paperwidth: 4.53in
+paperheight: 2.04in
 cols: 1
 rows: 1
 output: pagedown::business_card
@@ -28,12 +28,11 @@ output: pagedown::business_card
   height: 5.2cm;
   color: #e6eef0;
   background-color: #117c8d;
-  border: 3px dotted #117c8d;
 }
 .logo {
-  height: 70%;
-  padding-left: 9px;
-  padding-bottom: 20px;
+  height: 75%;
+  padding-left: 2px;
+  padding-bottom: 18px;
   padding-top: 25px;
   float: left;
 }
