@@ -1,0 +1,43 @@
+---
+logo: "reuleaux_heptagon.svg"
+googlefonts: "Nunito"
+paperwidth: 5in
+paperheight: 4in
+cols: 1
+rows: 1
+output: pagedown::business_card
+---
+
+<!-- if you prefer you can create cards in markdown instead of YAML declaration -->
+
+::: {.wrapper data-repeat="1"}
+[Alejandro Álvarez]{slot="name"}
+[MISM-BIDA. Carnegie Mellon University, Heinz College. Class 2021.]{slot="title"}
+[axa@andrew.cmu.edu alejandro.alvarez.1804@gmail.com]{slot="email"}
+[github.com/alejandroxag linkedin.com/in/alejandroxag]{slot="url"}
+<!-- [linkedin.com/in/alejandroxag]{slot="address"} -->
+[+52 55-33-26-45-66]{slot="phone"}
+:::
+
+
+<!-- if you prefer black text on white background, set eval=TRUE on the chunk below -->
+
+```{css, eval=TRUE}
+.wrapper {
+  width: 11.5cm;
+  height: 5.2cm;
+  color: #e6eef0;
+  background-color: #117c8d;
+  border: 3px dotted #117c8d;
+}
+.logo {
+  height: 70%;
+  padding-left: 9px;
+  padding-bottom: 20px;
+  padding-top: 25px;
+  float: left;
+}
+.coordinates {
+  color: #e6eef0;
+}
+```
